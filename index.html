@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/assets/site.css" />
+<link rel="stylesheet" href="/assets/loja.css" />
 <link rel="stylesheet" href="/assets/blog.css" />
 <script type="application/ld+json" id="biz">{"@context": "https://schema.org", "@type": "AutoPartsStore", "name": "Mega Motos Paraíso", "url": "https://megamotos.dluz.com.br/", "logo": "https://megamotos.dluz.com.br/assets/logo/logo.png", "image": "https://megamotos.dluz.com.br/assets/loja/loja_interior_hd.jpg", "foundingDate": "1997", "sameAs": ["https://www.instagram.com/megamotospso/"], "department": [{"@type": "MotorcycleRepair", "name": "Mega Motos – Loja 1 (Centro)", "telephone": "+55-63-3602-1643", "email": "megamotospso@gmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Av. Marechal Castelo Branco, 1475", "addressLocality": "Paraíso do Tocantins", "addressRegion": "TO", "postalCode": "77600-000", "addressCountry": "BR"}, "openingHours": ["Mo-Fr 07:00-18:00", "Sa 07:00-12:00"]}, {"@type": "MotorcycleRepair", "name": "Mega Motos – Loja 2 (Saída para Divinópolis)", "telephone": "+55-63-3142-1643", "email": "megamotospso2@gmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Av. Bernardo Sayão, 2601", "addressLocality": "Paraíso do Tocantins", "addressRegion": "TO", "addressCountry": "BR"}, "openingHours": ["Mo-Fr 07:00-18:00", "Sa 07:00-12:00"]}]}</script>
 </head>
@@ -38,7 +39,7 @@
     <nav class="nav-links" aria-label="Principal">
       <a href="#lojas">Lojas</a>
       <a href="#oficina">Oficina</a>
-      <a href="#produtos">Produtos</a>
+      <a href="/loja/">Loja</a>
       <a href="#orcamento">Orçamento</a>
       <a href="#duvidas">Dúvidas</a>
       <a href="/blog/">Blog</a>
@@ -54,6 +55,7 @@
     <a href="#lojas">Nossas lojas</a>
     <a href="#oficina">Oficina</a>
     <a href="#produtos">Peças e pneus</a>
+    <a href="/loja/">Loja</a>
     <a href="#orcamento">Orçamento</a>
     <a href="#avaliacoes">Avaliações</a>
     <a href="#duvidas">Dúvidas</a>
@@ -209,107 +211,104 @@
   </section>
 
   <!-- PRODUTOS -->
+  <!-- LOJA-HOME:start -->
   <section id="produtos">
     <div class="wrap">
       <div class="section-head reveal">
         <div>
-          <span class="eyebrow">Pronta entrega</span>
+          <span class="eyebrow">Loja</span>
           <h2>Peças, pneus e acessórios.</h2>
         </div>
-        <p>Mais de 15.000 itens para todas as marcas, originais e de primeira linha. Alguns dos mais procurados:</p>
+        <p>Mais de 15.000 itens para todas as marcas. Escolha aqui e finalize a compra pelo WhatsApp: a gente confirma o estoque e você retira na Loja 1, no Centro. <a href="/loja/" style="font-weight:600;text-decoration:underline;text-underline-offset:3px">Ver a loja completa</a></p>
       </div>
 
       <div class="filters reveal" role="group" aria-label="Filtrar produtos">
-        <button class="chip active" data-filter="todos">Todos</button>
-        <button class="chip" data-filter="pneus">Pneus</button>
-        <button class="chip" data-filter="transmissao">Transmissão</button>
-        <button class="chip" data-filter="oleos">Óleos</button>
-        <button class="chip" data-filter="acessorios">Capacetes e acessórios</button>
-        <button class="chip" data-filter="eletrica">Elétrica e motor</button>
-        <button class="chip" data-filter="freios">Freios</button>
+        <button class="chip active" data-filter="todos">Todos</button><button class="chip" data-filter="pneus">Pneus</button><button class="chip" data-filter="transmissao">Transmissão</button><button class="chip" data-filter="oleos">Óleos</button><button class="chip" data-filter="capacetes-e-acessorios">Capacetes e acessórios</button><button class="chip" data-filter="eletrica-e-motor">Elétrica e motor</button><button class="chip" data-filter="freios">Freios</button>
       </div>
 
       <div class="products" id="products">
-        <article class="product" data-cat="pneus">
-          <div class="product-img"><img src="assets/produtos/pneu_moto.jpg" alt="Pneu de moto Levorin Matrix" loading="lazy" /></div>
+        <article class="product" data-cat="pneus" data-busca="pneu levorin matrix levorin pneus " data-motos="">
+          <a class="product-img" href="/loja/pneu-levorin-matrix/"><img src="/assets/produtos/pneu_moto.jpg" alt="Pneu Levorin Matrix" loading="lazy" /></a>
           <div class="product-body">
             <span class="product-cat">Pneus</span>
-            <h3>Pneu Levorin Matrix · aro 14, 17 e 18</h3>
-            <p>Homologado pelas montadoras, alto rendimento e aderência no seco e no molhado.</p>
-            <div class="product-foot"><small>Montagem na loja</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20qual%20o%20pre%C3%A7o%20do%20Pneu%20Levorin%20Matrix%20para%20minha%20moto%3F" target="_blank" rel="noopener">Consultar</a></div>
+            <h3><a href="/loja/pneu-levorin-matrix/">Pneu Levorin Matrix</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Aro 14, 17 e 18 · montagem na loja</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Pneu%20Levorin%20Matrix.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/pneu-levorin-matrix/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="transmissao">
-          <div class="product-img"><img src="assets/produtos/kit_relacao.jpg" alt="Kit relação Riffel Titanium" loading="lazy" /></div>
+        </article><article class="product" data-cat="transmissao" data-busca="kit relação riffel titanium riffel transmissão " data-motos="">
+          <a class="product-img" href="/loja/kit-relacao-riffel-titanium/"><img src="/assets/produtos/kit_relacao.jpg" alt="Kit Relação Riffel Titanium" loading="lazy" /></a>
           <div class="product-body">
             <span class="product-cat">Transmissão</span>
-            <h3>Kit Relação Riffel Titanium</h3>
-            <p>Coroa e pinhão em aço 1045 usinados em CNC e corrente reforçada. Selo INMETRO.</p>
-            <div class="product-foot"><small>Pronta entrega</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20quanto%20custa%20o%20Kit%20Rela%C3%A7%C3%A3o%20Riffel%20Titanium%20para%20minha%20moto%3F" target="_blank" rel="noopener">Consultar</a></div>
+            <h3><a href="/loja/kit-relacao-riffel-titanium/">Kit Relação Riffel Titanium</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Pronta entrega</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Kit%20Rela%C3%A7%C3%A3o%20Riffel%20Titanium.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/kit-relacao-riffel-titanium/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="oleos">
-          <div class="product-img"><img src="assets/produtos/oleo_moto.jpg" alt="Óleo Mobil Super Moto 4T 20W-50" loading="lazy" /></div>
+        </article><article class="product" data-cat="oleos" data-busca="óleo mobil super moto 4t 20w-50 mobil óleos " data-motos="">
+          <a class="product-img" href="/loja/oleo-mobil-super-moto-4t-20w-50/"><img src="/assets/produtos/oleo_moto.jpg" alt="Óleo Mobil Super Moto 4T 20W-50" loading="lazy" /></a>
           <div class="product-body">
             <span class="product-cat">Óleos</span>
-            <h3>Mobil Super Moto 4T 20W-50</h3>
-            <p>Proteção contra desgaste e viscosidade ideal para motores Honda e Yamaha.</p>
-            <div class="product-foot"><small>Troca no balcão</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20qual%20o%20valor%20do%20%C3%B3leo%20para%20minha%20moto%3F" target="_blank" rel="noopener">Consultar</a></div>
+            <h3><a href="/loja/oleo-mobil-super-moto-4t-20w-50/">Óleo Mobil Super Moto 4T 20W-50</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Troca no balcão</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20%C3%93leo%20Mobil%20Super%20Moto%204T%2020W-50.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/oleo-mobil-super-moto-4t-20w-50/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="acessorios">
-          <div class="product-img"><img src="assets/produtos/capacete_moto.jpg" alt="Capacete Taurus San Marino" loading="lazy" /></div>
+        </article><article class="product" data-cat="capacetes-e-acessorios" data-busca="capacete taurus san marino classic taurus capacetes e acessórios " data-motos="">
+          <a class="product-img" href="/loja/capacete-taurus-san-marino-classic/"><img src="/assets/produtos/capacete_moto.jpg" alt="Capacete Taurus San Marino Classic" loading="lazy" /></a>
           <div class="product-body">
-            <span class="product-cat">Capacetes</span>
-            <h3>Capacete Taurus San Marino Classic</h3>
-            <p>Casco em ABS, fecho micrométrico e viseira antirrisco. Selo INMETRO.</p>
-            <div class="product-foot"><small>Até 12x no cartão</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20o%20Capacete%20Taurus%20San%20Marino." target="_blank" rel="noopener">Consultar</a></div>
+            <span class="product-cat">Capacetes e acessórios</span>
+            <h3><a href="/loja/capacete-taurus-san-marino-classic/">Capacete Taurus San Marino Classic</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Até 12x no cartão</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Capacete%20Taurus%20San%20Marino%20Classic.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/capacete-taurus-san-marino-classic/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="eletrica">
-          <div class="product-img"><img src="assets/produtos/bateria_moto.jpg" alt="Bateria Moura MA6-D 12V" loading="lazy" /></div>
+        </article><article class="product" data-cat="eletrica-e-motor" data-busca="bateria moura ma6-d 12v agm moura elétrica e motor " data-motos="">
+          <a class="product-img" href="/loja/bateria-moura-ma6-d-12v-agm/"><img src="/assets/produtos/bateria_moto.jpg" alt="Bateria Moura MA6-D 12V AGM" loading="lazy" /></a>
           <div class="product-body">
-            <span class="product-cat">Elétrica</span>
-            <h3>Bateria Moura MA6-D 12V AGM</h3>
-            <p>Livre de manutenção, tecnologia AGM/VRLA e partida potente.</p>
-            <div class="product-foot"><small>Instalação grátis</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20quanto%20est%C3%A1%20a%20bateria%20para%20minha%20moto%3F" target="_blank" rel="noopener">Consultar</a></div>
+            <span class="product-cat">Elétrica e motor</span>
+            <h3><a href="/loja/bateria-moura-ma6-d-12v-agm/">Bateria Moura MA6-D 12V AGM</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Instalação grátis</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Bateria%20Moura%20MA6-D%2012V%20AGM.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/bateria-moura-ma6-d-12v-agm/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="freios">
-          <div class="product-img"><img src="assets/produtos/pastilha_freio.jpg" alt="Pastilhas de freio Cobreq" loading="lazy" /></div>
+        </article><article class="product" data-cat="freios" data-busca="pastilhas de freio cobreq street cobreq freios " data-motos="">
+          <a class="product-img" href="/loja/pastilhas-de-freio-cobreq-street/"><img src="/assets/produtos/pastilha_freio.jpg" alt="Pastilhas de Freio Cobreq Street" loading="lazy" /></a>
           <div class="product-body">
             <span class="product-cat">Freios</span>
-            <h3>Pastilhas de Freio Cobreq Street</h3>
-            <p>Alta durabilidade, resposta imediata, sem ruído e sem vitrificação.</p>
-            <div class="product-foot"><small>Em estoque</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20preciso%20de%20pastilhas%20de%20freio%20para%20minha%20moto." target="_blank" rel="noopener">Consultar</a></div>
+            <h3><a href="/loja/pastilhas-de-freio-cobreq-street/">Pastilhas de Freio Cobreq Street</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Em estoque</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Pastilhas%20de%20Freio%20Cobreq%20Street.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/pastilhas-de-freio-cobreq-street/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="eletrica">
-          <div class="product-img"><img src="assets/produtos/bomba_combustivel.jpg" alt="Bomba de combustível Magnetron" loading="lazy" /></div>
+        </article><article class="product" data-cat="eletrica-e-motor" data-busca="bomba de combustível magnetron magnetron elétrica e motor " data-motos="">
+          <a class="product-img" href="/loja/bomba-de-combustivel-magnetron/"><img src="/assets/produtos/bomba_combustivel.jpg" alt="Bomba de Combustível Magnetron" loading="lazy" /></a>
           <div class="product-body">
-            <span class="product-cat">Injeção e motor</span>
-            <h3>Bomba de Combustível Magnetron</h3>
-            <p>Refil completo com pré-filtro, fiação e anel de vedação.</p>
-            <div class="product-foot"><small>Garantia balcão</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20preciso%20de%20pe%C3%A7as%20de%20inje%C3%A7%C3%A3o%20para%20minha%20moto." target="_blank" rel="noopener">Consultar</a></div>
+            <span class="product-cat">Elétrica e motor</span>
+            <h3><a href="/loja/bomba-de-combustivel-magnetron/">Bomba de Combustível Magnetron</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Garantia balcão</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Bomba%20de%20Combust%C3%ADvel%20Magnetron.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/bomba-de-combustivel-magnetron/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
-        </article>
-        <article class="product" data-cat="acessorios">
-          <div class="product-img"><img src="assets/produtos/capa_chuva.jpg" alt="Capa de chuva Pantaneiro Flex" loading="lazy" /></div>
+        </article><article class="product" data-cat="capacetes-e-acessorios" data-busca="capa de chuva pantaneiro flex pantaneiro capacetes e acessórios " data-motos="">
+          <a class="product-img" href="/loja/capa-de-chuva-pantaneiro-flex/"><img src="/assets/produtos/capa_chuva.jpg" alt="Capa de Chuva Pantaneiro Flex" loading="lazy" /></a>
           <div class="product-body">
-            <span class="product-cat">Acessórios</span>
-            <h3>Capa de Chuva Pantaneiro Flex</h3>
-            <p>Jaqueta com capuz, calça reforçada e faixa refletiva. 100% impermeável.</p>
-            <div class="product-foot"><small>Tamanhos P ao XGG</small><a href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20tem%20capa%20de%20chuva%20no%20meu%20tamanho%3F" target="_blank" rel="noopener">Consultar</a></div>
+            <span class="product-cat">Capacetes e acessórios</span>
+            <h3><a href="/loja/capa-de-chuva-pantaneiro-flex/">Capa de Chuva Pantaneiro Flex</a></h3>
+            
+            <div class="product-foot loja-foot"><span class="loja-preco"><b class="consulta">Preço no WhatsApp</b></span><small>Tamanhos P ao XGG</small></div>
+            <a class="loja-comprar" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20Mega%20Motos%21%20Quero%20comprar%3A%20Capa%20de%20Chuva%20Pantaneiro%20Flex.%20Vi%20na%20loja%20do%20site%3A%20https%3A//megamotos.dluz.com.br/loja/capa-de-chuva-pantaneiro-flex/" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Comprar<span class="lc-longo">&nbsp;no WhatsApp</span></a>
           </div>
         </article>
       </div>
 
       <div class="stock-cta reveal">
-        <div><strong>Não achou o que procurava?</strong><span>São mais de 15.000 peças no sistema das duas lojas. Pergunte ao balcão.</span></div>
-        <a class="btn btn-dark" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20estou%20procurando%20uma%20pe%C3%A7a%20espec%C3%ADfica%20para%20minha%20moto." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Consultar estoque</a>
+        <div><strong>Não achou o que procurava?</strong><span>São mais de 15.000 peças no sistema das duas lojas. Veja a loja completa ou pergunte ao balcão.</span></div>
+        <div class="loja-cta-acoes"><a class="btn btn-accent" href="/loja/">Ver a loja <svg><use href="#i-arrow"/></svg></a><a class="btn btn-dark" href="https://wa.me/556336021643?text=Ol%C3%A1%2C%20estou%20procurando%20uma%20pe%C3%A7a%20espec%C3%ADfica%20para%20minha%20moto." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Consultar estoque</a></div>
       </div>
     </div>
   </section>
+  <!-- LOJA-HOME:end -->
 
   <!-- MARCAS -->
   <div class="brands">
@@ -403,6 +402,8 @@
       </a>
     </div>
   </section>
+
+
 
 
 
@@ -516,6 +517,7 @@
           <li><a href="#lojas">Lojas</a></li>
           <li><a href="#oficina">Oficina</a></li>
           <li><a href="#produtos">Peças e pneus</a></li>
+          <li><a href="/loja/">Loja</a></li>
           <li><a href="#orcamento">Orçamento</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="https://www.instagram.com/megamotospso/" target="_blank" rel="noopener">Instagram</a></li>

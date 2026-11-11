@@ -211,6 +211,10 @@ open(idx_path, "w", encoding="utf-8").write(s)
 urls = [(BASE + "/", "weekly", "1.0"), (blog_url, "weekly", "0.8")] + [(f"{BASE}/blog/{p['slug']}/", "monthly", "0.7") for p in POSTS]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
     f"  <url><loc>{u}</loc><lastmod>{DATE}</lastmod><changefreq>{c}</changefreq><priority>{pr}</priority></url>\n" for u, c, pr in urls) + "</urlset>\n"
-open(os.path.join(REPO, "sitemap.xml"), "w", encoding="utf-8").write(sm)
+# mantém as páginas da loja (geradas por tools/build_loja.py)
+_sm_path = os.path.join(REPO, "sitemap.xml")
+_sm_old = open(_sm_path, encoding="utf-8").read() if os.path.exists(_sm_path) else ""
+sm = sm.replace("</urlset>", "".join(re.findall(r"  <url><loc>[^<]*/loja/[^<]*</loc>.*?</url>\n", _sm_old)) + "</urlset>")
+open(_sm_path, "w", encoding="utf-8").write(sm)
 open(os.path.join(REPO, "robots.txt"), "w", encoding="utf-8").write(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
 print("ok:", len(POSTS), "artigos")
