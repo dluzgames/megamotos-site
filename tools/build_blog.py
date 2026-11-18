@@ -7,9 +7,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from blog_posts import POSTS
 
 REPO = sys.argv[1]
-BASE = "https://megamotos.dluz.com.br"
-DATE = "2026-11-09"
-DATE_BR = "9 de novembro de 2026"
+BASE = "https://megamotospso.com.br"
+DATE = "2026-11-18"
+DATE_BR = "18 de novembro de 2026"
 WA1 = "556336021643"
 
 idx_path = os.path.join(REPO, "index.html")
@@ -53,8 +53,11 @@ def page(title, desc, canonical, body, jsonld, og_img="/assets/loja/loja_interio
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="geo.region" content="BR-TO" />
+<meta name="geo.placename" content="Paraíso do Tocantins" />
 <link rel="canonical" href="{canonical}" />
-<meta name="theme-color" content="#111111" />
+<meta name="theme-color" content="#141518" />
 <meta property="og:type" content="{og_type}" />
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:site_name" content="Mega Motos Paraíso" />
@@ -62,7 +65,15 @@ def page(title, desc, canonical, body, jsonld, og_img="/assets/loja/loja_interio
 <meta property="og:description" content="{esc(desc)}" />
 <meta property="og:url" content="{canonical}" />
 <meta property="og:image" content="{BASE}{og_img}" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Cpath d='M14 46V18h7l11 15 11-15h7v28h-7V30l-11 14-11-14v16z' fill='%23FACC15'/%3E%3C/svg%3E" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{esc(title)}" />
+<meta name="twitter:description" content="{esc(desc)}" />
+<meta name="twitter:image" content="{BASE}{og_img}" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -191,20 +202,41 @@ if '/assets/blog.css' not in s:
     s = s.replace('<link rel="stylesheet" href="/assets/site.css" />', '<link rel="stylesheet" href="/assets/site.css" />\n<link rel="stylesheet" href="/assets/blog.css" />', 1)
 if 'rel="canonical"' not in s:
     s = s.replace('<meta name="theme-color"', f'<link rel="canonical" href="{BASE}/" />\n<meta name="theme-color"', 1)
+else:
+    s = re.sub(r'<link rel="canonical" href="[^"]*"\s*/?>', f'<link rel="canonical" href="{BASE}/" />', s, count=1)
 biz = {"@context": "https://schema.org", "@type": "AutoPartsStore", "name": "Mega Motos Paraíso", "url": BASE + "/",
        "logo": BASE + "/assets/logo/logo.png", "image": BASE + "/assets/loja/loja_interior_hd.jpg", "foundingDate": "1997",
-       "sameAs": ["https://www.instagram.com/megamotospso/"],
+       "priceRange": "$$",
+       "paymentAccepted": "Dinheiro, Pix, Cartão de Crédito, Cartão de Débito",
+       "areaServed": ["Paraíso do Tocantins", "Divinópolis do Tocantins", "Barrolândia", "Pugmil", "Nova Rosalândia"],
+       "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.4", "reviewCount": "125"},
+       "sameAs": ["https://www.instagram.com/megamotospso/", "https://www.facebook.com/megamotospso/"],
        "department": [
         {"@type": "MotorcycleRepair", "name": "Mega Motos – Loja 1 (Centro)", "telephone": "+55-63-3602-1643",
          "email": "megamotospso@gmail.com",
          "address": {"@type": "PostalAddress", "streetAddress": "Av. Marechal Castelo Branco, 1475", "addressLocality": "Paraíso do Tocantins", "addressRegion": "TO", "postalCode": "77600-000", "addressCountry": "BR"},
+         "geo": {"@type": "GeoCoordinates", "latitude": -10.1746, "longitude": -48.8825},
          "openingHours": ["Mo-Fr 07:00-18:00", "Sa 07:00-12:00"]},
         {"@type": "MotorcycleRepair", "name": "Mega Motos – Loja 2 (Saída para Divinópolis)", "telephone": "+55-63-3142-1643",
          "email": "megamotospso2@gmail.com",
          "address": {"@type": "PostalAddress", "streetAddress": "Av. Bernardo Sayão, 2601", "addressLocality": "Paraíso do Tocantins", "addressRegion": "TO", "addressCountry": "BR"},
          "openingHours": ["Mo-Fr 07:00-18:00", "Sa 07:00-12:00"]}]}
+website_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Mega Motos Paraíso", "url": BASE + "/",
+              "potentialAction": {"@type": "SearchAction", "target": BASE + "/loja/?q={search_term_string}", "query-input": "required name=search_term_string"}}
+home_faq_items = re.findall(r'<section id="duvidas".*?</section>', s, flags=re.S)
+faq_ld_list = []
+if home_faq_items:
+    for q_t, a_t in re.findall(r'<details>\s*<summary>(.*?)<i></i></summary>\s*<p>(.*?)</p>\s*</details>', home_faq_items[0], flags=re.S):
+        faq_ld_list.append({"@type": "Question", "name": html.unescape(re.sub(r'<[^>]+>', '', q_t)).strip(),
+                            "acceptedAnswer": {"@type": "Answer", "text": html.unescape(re.sub(r'<[^>]+>', '', a_t)).strip()}})
 s = re.sub(r'<script type="application/ld\+json" id="biz">.*?</script>\n?', '', s, flags=re.S)
-s = s.replace('</head>', f'<script type="application/ld+json" id="biz">{json.dumps(biz, ensure_ascii=False)}</script>\n</head>', 1)
+s = re.sub(r'<script type="application/ld\+json" id="site-search">.*?</script>\n?', '', s, flags=re.S)
+s = re.sub(r'<script type="application/ld\+json" id="home-faq">.*?</script>\n?', '', s, flags=re.S)
+extra_lds = f'<script type="application/ld+json" id="biz">{json.dumps(biz, ensure_ascii=False)}</script>\n'
+extra_lds += f'<script type="application/ld+json" id="site-search">{json.dumps(website_ld, ensure_ascii=False)}</script>\n'
+if faq_ld_list:
+    extra_lds += f'<script type="application/ld+json" id="home-faq">{json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq_ld_list}, ensure_ascii=False)}</script>\n'
+s = s.replace('</head>', extra_lds + '</head>', 1)
 open(idx_path, "w", encoding="utf-8").write(s)
 
 # ---------- sitemap e robots ----------

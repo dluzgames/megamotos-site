@@ -8,7 +8,7 @@ Uso: python tools/build_loja.py <pasta-do-repo>
 import sys, os, re, csv, json, html, shutil, unicodedata, urllib.parse
 
 REPO = sys.argv[1]
-BASE = "https://megamotos.dluz.com.br"
+BASE = "https://megamotospso.com.br"
 WA1 = "556336021643"   # Loja 1 (Centro): foco do contrato
 WA2 = "556331421643"   # Loja 2
 
@@ -162,8 +162,11 @@ def page(title, desc, canonical, body, jsonld, og_img="/assets/loja/loja_interio
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="geo.region" content="BR-TO" />
+<meta name="geo.placename" content="Paraíso do Tocantins" />
 <link rel="canonical" href="{canonical}" />
-<meta name="theme-color" content="#111111" />
+<meta name="theme-color" content="#141518" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:site_name" content="Mega Motos Paraíso" />
@@ -171,7 +174,15 @@ def page(title, desc, canonical, body, jsonld, og_img="/assets/loja/loja_interio
 <meta property="og:description" content="{esc(desc)}" />
 <meta property="og:url" content="{canonical}" />
 <meta property="og:image" content="{BASE}{og_img}" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Cpath d='M14 46V18h7l11 15 11-15h7v28h-7V30l-11 14-11-14v16z' fill='%23FACC15'/%3E%3C/svg%3E" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{esc(title)}" />
+<meta name="twitter:description" content="{esc(desc)}" />
+<meta name="twitter:image" content="{BASE}{og_img}" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />

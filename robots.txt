@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://megamotos.dluz.com.br/sitemap.xml
+Sitemap: https://megamotospso.com.br/sitemap.xml
