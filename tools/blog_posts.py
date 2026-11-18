@@ -4,6 +4,61 @@
 
 POSTS = [
 {
+"slug": "conjunto-de-chuva-paraiso-do-tocantins-como-escolher-capa-de-chuva",
+"title": "Conjunto de chuva em Paraíso do Tocantins: como escolher a capa de chuva certa para moto",
+"desc": "Procurando conjunto de chuva ou capa de chuva para moto em Paraíso do Tocantins? Veja a diferença entre PVC e Nylon, como acertar o tamanho e onde comprar com retirada na hora.",
+"cat": "Equipamentos",
+"img": "/assets/produtos/capa_chuva.jpg",
+"img_alt": "Conjunto e capa de chuva para motociclista Pantaneiro Flex na Mega Motos Paraíso",
+"read": 5,
+"wa": "Olá! Li o guia sobre conjunto de chuva no site e quero ver os modelos e tamanhos de capa de chuva disponíveis na Loja 1.",
+"body": """
+<p class="lede">Quem pega moto todo dia em <strong>Paraíso do Tocantins</strong> sabe que a chuva chega rápido e não dá trégua — seja no caminho do trabalho pelo Centro ou na saída pela BR-153. Escolher um bom <strong>conjunto de chuva</strong> (jaqueta + calça) faz toda a diferença entre chegar seco e passar aperto na pista.</p>
+
+<h2>Conjunto de chuva ou capa inteiriça: qual vale mais a pena?</h2>
+<p>Para quem pilota no dia a dia ou trabalha com entregas, o <strong>conjunto de chuva duas peças</strong> (jaqueta com zíper + velcro e calça com elástico) é o mais prático e seguro:</p>
+<ul>
+<li><strong>Mais liberdade de movimento:</strong> você sobe e desce da moto sem a capa prender no banco ou enroscar na pedaleira.</li>
+<li><strong>Vedação reforçada:</strong> os modelos próprios para motociclista têm costura selada, gola alta e punhos ajustáveis para a água não entrar pelo vento.</li>
+<li><strong>Fácil de guardar no baú ou mochila:</strong> dobra rápido e ocupa pouco espaço.</li>
+</ul>
+<p>Já as capas descartáveis ou de plástico fino rasgam na primeira rajada de vento e não protegem a calça nem os pés.</p>
+
+<h2>PVC, Nylon ou Flex: qual material escolher no calor do Tocantins?</h2>
+<p>No clima quente de Paraíso do Tocantins, o material do conjunto de chuva muda muito o conforto:</p>
+<ul>
+<li><strong>PVC / Emborrachado (ex.: linha Flex):</strong> 100% impermeável mesmo em temporal forte, fácil de limpar depois de pegar barro e muito resistente ao uso diário de motoboy e mototaxista.</li>
+<li><strong>Nylon resinado:</strong> mais leve, macio e fácil de dobrar, ótimo para quem carrega na mochila todos os dias para emergências.</li>
+</ul>
+<p>Confira na nossa loja o <a href="/loja/capa-de-chuva-pantaneiro-flex/"><strong>Conjunto Capa de Chuva Pantaneiro Flex</strong></a>, um dos mais procurados em Paraíso pela resistência e conforto.</p>
+
+<h2>O que conferir antes de comprar sua capa de chuva</h2>
+<ol>
+<li><strong>Tamanho um pouco maior que sua roupa normal:</strong> o conjunto vai por cima da calça e da camiseta ou jaqueta. Se ficar justo demais, força a costura na hora de montar na moto.</li>
+<li><strong>Faixas refletivas:</strong> chuva forte reduz a visibilidade. Prefira modelos com refletivos nas costas, peito e pernas para ser visto de longe pelos carros.</li>
+<li><strong>Zíper com aba protetora (vista):</strong> impede que a água empurrada pelo vento passe pelos dentes do zíper.</li>
+<li><strong>Calça com ajuste na barra:</strong> facilita vestir mesmo usando bota ou tênis, sem precisar tirar o calçado no meio da rua.</li>
+</ol>
+
+<h2>Dica extra: complete a proteção contra a chuva</h2>
+<p>De nada adianta o corpo seco se a viseira embaça ou o pneu patina. Antes de pegar pista molhada, vale conferir nosso guia completo de <a href="/blog/cuidados-com-a-moto-na-chuva-tocantins/"><strong>8 cuidados com a moto no período de chuva no Tocantins</strong></a> e dar uma olhada em polainas/botas impermeáveis e produto antiembaçante para viseira.</p>
+
+<h2>Onde comprar conjunto de chuva em Paraíso do Tocantins</h2>
+<p>Na <strong>Mega Motos Paraíso</strong> você experimenta o tamanho certo na hora e já sai pronto para rodar, com opção de pagamento no Pix ou em até 12x no cartão:</p>
+<ul>
+<li><strong>Loja 1 (Centro — Principal):</strong> Av. Marechal Castelo Branco, 1475 · WhatsApp <a href="https://wa.me/556336021643" target="_blank" rel="noopener">(63) 3602-1643</a></li>
+<li><strong>Loja 2 (Saída p/ Divinópolis):</strong> Av. Bernardo Sayão, 2601 · WhatsApp <a href="https://wa.me/556331421643" target="_blank" rel="noopener">(63) 3142-1643</a></li>
+</ul>
+""",
+"faq": [
+("Onde comprar conjunto de chuva para moto em Paraíso do Tocantins?", "Na Mega Motos Paraíso! Você encontra conjuntos e capas de chuva a pronta entrega na Loja 1 (Av. Marechal Castelo Branco, 1475, Centro) e na Loja 2 (Av. Bernardo Sayão, 2601, Saída para Divinópolis)."),
+("Qual tamanho de capa de chuva devo escolher?", "Escolha um número acima ou experimente por cima da sua roupa habitual na loja. O conjunto precisa ter folga nos ombros e joelhos para não tensionar as costuras quando você senta na moto."),
+("Capa de chuva Pantaneiro é boa para chuva forte no Tocantins?", "Sim. A linha Pantaneiro Flex tem costuras seladas, material resistente, gola alta e faixas refletivas, aguentando bem os temporais e o uso diário."),
+("Posso pedir o conjunto de chuva pelo WhatsApp?", "Sim! Você pode chamar a Loja 1 pelo WhatsApp (63) 3602-1643 para confirmar tamanho e preço, reservar a peça e retirar no balcão ou combinar a entrega."),
+("Quais as formas de pagamento na Mega Motos?", "Aceitamos Pix, dinheiro, débito e cartão de crédito em até 12x (consulte condições no balcão ou WhatsApp)."),
+],
+},
+{
 "slug": "quando-trocar-oleo-da-moto",
 "title": "Quando trocar o óleo da moto? Guia prático para não errar",
 "desc": "Saiba quando trocar o óleo da moto, como conferir o nível, qual óleo usar e os sinais de que a troca passou da hora. Dicas da oficina Mega Motos em Paraíso do Tocantins.",
