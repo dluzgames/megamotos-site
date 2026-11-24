@@ -1,0 +1,44 @@
+# Mega Motos Paraíso
+
+> Loja de moto peças, pneus, capacetes, acessórios e oficina mecânica em Paraíso do Tocantins/TO desde 1997. Mais de 15.000 itens a pronta entrega em duas lojas (Centro e Saída para Divinópolis).
+
+## Unidades e Contato
+
+- Loja 1 (Centro): Av. Marechal Castelo Branco, 1475, Centro, Paraíso do Tocantins/TO · CEP 77600-000 · WhatsApp [(63) 3602-1643](https://wa.me/556336021643)
+- Loja 2 (Saída para Divinópolis): Av. Bernardo Sayão, 2601, Paraíso do Tocantins/TO · Telefone [(63) 3142-1643](https://wa.me/556331421643)
+- Horário de funcionamento: Segunda a sexta, 7h às 18h · Sábado, 7h às 12h
+- Instagram oficial: [@megamotospso](https://www.instagram.com/megamotospso/)
+- Facebook oficial: [Mega Motos Paraíso](https://www.facebook.com/megamotospso/)
+
+## Páginas Principais
+
+- [Página inicial](https://megamotospso.com.br/): Apresentação das duas lojas, serviços de oficina, marcas trabalhadas e perguntas frequentes.
+- [Loja virtual de peças e acessórios](https://megamotospso.com.br/loja/): Vitrine de pneus, kits relação, óleos, capacetes, baterias, pastilhas de freio, bombas de combustível e capas de chuva com compra pelo WhatsApp.
+- [Blog Dicas da Oficina](https://megamotospso.com.br/blog/): Artigos técnicos e guias de manutenção para motociclistas de Paraíso do Tocantins e região.
+
+## Produtos em Destaque na Loja
+
+- [Pneu Levorin Matrix](https://megamotospso.com.br/loja/pneu-levorin-matrix/)
+- [Kit Relação Riffel Titanium](https://megamotospso.com.br/loja/kit-relacao-riffel-titanium/)
+- [Óleo Mobil Super Moto 4T 20W-50](https://megamotospso.com.br/loja/oleo-mobil-super-moto-4t-20w-50/)
+- [Capacete Taurus San Marino Classic](https://megamotospso.com.br/loja/capacete-taurus-san-marino-classic/)
+- [Bateria Moura MA6-D 12V AGM](https://megamotospso.com.br/loja/bateria-moura-ma6-d-12v-agm/)
+- [Pastilhas de Freio Cobreq Street](https://megamotospso.com.br/loja/pastilhas-de-freio-cobreq-street/)
+- [Bomba de Combustível Magnetron](https://megamotospso.com.br/loja/bomba-de-combustivel-magnetron/)
+- [Capa de Chuva Pantaneiro Flex](https://megamotospso.com.br/loja/capa-de-chuva-pantaneiro-flex/)
+
+## Guias de Manutenção e SEO Local (Blog)
+
+- [Conjunto de chuva em Paraíso do Tocantins: como escolher capa de chuva](https://megamotospso.com.br/blog/conjunto-de-chuva-paraiso-do-tocantins-como-escolher-capa-de-chuva/)
+- [Quando trocar o óleo da moto](https://megamotospso.com.br/blog/quando-trocar-oleo-da-moto/)
+- [Cuidados com a moto na chuva no Tocantins](https://megamotospso.com.br/blog/cuidados-com-a-moto-na-chuva-tocantins/)
+- [Quando trocar o kit relação](https://megamotospso.com.br/blog/quando-trocar-kit-relacao/)
+- [Pneu de moto: quando trocar e calibrar](https://megamotospso.com.br/blog/pneu-de-moto-quando-trocar-e-calibrar/)
+- [Freio da moto: quando trocar a pastilha](https://megamotospso.com.br/blog/freio-da-moto-quando-trocar-pastilha/)
+- [Como escolher capacete e quando trocar](https://megamotospso.com.br/blog/como-escolher-capacete-e-quando-trocar/)
+- [Moto falhando: causas na injeção eletrônica](https://megamotospso.com.br/blog/moto-falhando-causas-injecao-eletronica/)
+
+## Dados Estruturados para Agentes
+
+- [Sitemap XML](https://megamotospso.com.br/sitemap.xml): Mapa completo das páginas indexáveis.
+- [Manifesto ARD (ard.json)](https://megamotospso.com.br/.well-known/ard.json): Catálogo de descoberta de recursos para agentes de IA.

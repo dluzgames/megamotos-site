@@ -1,0 +1,29 @@
+{
+  "specVersion": "1.0",
+  "entries": [
+    {
+      "identifier": "urn:air:megamotospso.com.br:store:llms-txt",
+      "displayName": "Mega Motos Paraíso — Guia de Peças, Oficina e Lojas",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://megamotospso.com.br/llms.txt",
+      "description": "Resumo estruturado da Mega Motos Paraíso em Paraíso do Tocantins/TO com endereços das duas lojas, oficina mecânica, WhatsApp, produtos e guias de manutenção.",
+      "representativeQueries": [
+        "loja de moto peças em Paraíso do Tocantins",
+        "oficina de moto e troca de óleo em Paraíso do Tocantins",
+        "onde comprar pneu, kit relação e capa de chuva para moto em Paraíso TO",
+        "telefone e WhatsApp da Mega Motos Paraíso do Tocantins"
+      ]
+    },
+    {
+      "identifier": "urn:air:megamotospso.com.br:store:sitemap",
+      "displayName": "Mega Motos Paraíso — Índice de Produtos e Artigos (Sitemap)",
+      "type": "application/xml",
+      "url": "https://megamotospso.com.br/sitemap.xml",
+      "description": "Mapa XML com todas as páginas de produtos da loja virtual e artigos técnicos da oficina da Mega Motos.",
+      "representativeQueries": [
+        "catálogo de peças e acessórios Mega Motos Paraíso",
+        "blog dicas de manutenção de moto Tocantins"
+      ]
+    }
+  ]
+}
